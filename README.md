@@ -9,6 +9,9 @@ The files in this directory directly reproduce the PIPR model and the PAAE encod
 >testvec5Rcnn.py: This file is used for test the model.  
 
 ### /CompareWithPioneer/PIPR_onehot/
-The files in this directory are used to implement the models developed by previous researchers.
+>onehot_Rcnn.py: This file is used for training the model.   
+>testonehotRcnn.py: This file is used for test the model.
+
 ### /CompareWithPioneer/PIPR_w2v/
-The files in this directory are used to implement the models developed by previous researchers.
+>w2v_Rcnn.py: This file is used for training the model.   
+>testwevRcnn.py: This file is used for test the model.  
