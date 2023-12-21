@@ -4,10 +4,6 @@
 The files in this directory are used to implement the models developed by previous researchers.
 
 ### /CompareWithPioneer/PIPR_PAAE/
-
- 
- 
-
 The files in this directory directly reproduce the PIPR model and the PAAE encoding method proposed by them.
 
  vec5_Rcnn.py: This file is used for training the model. 
