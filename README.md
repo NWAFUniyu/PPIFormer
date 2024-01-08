@@ -31,3 +31,18 @@ This step is used to generate the interaction table based on the Hash table.
 
 #### /MyNegativeSampling/03_genNegSamp/
 This step is used to generate negative samples.
+
+#### /MyNegativeSampling/04_pair2seq/
+This step is used to gain the sequences of proteins.
+
+#### /PPIFormer/Seq_Process/
+This step is used to convert the dataset into a matrix for training the model
+
+#### /PPIFormer/PPIFormer_PAAE/
+This is the model of PPIFormer with PAAE encoding schema.
+
+#### /PPIFormer/PPIFormer_onehot/
+This is the model of PPIFormer with onehot encoding schema.
+
+#### /PPIFormer/PPIFormer_w2v/
+This is the model of PPIFormer with w2v encoding schema.
