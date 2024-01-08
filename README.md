@@ -27,4 +27,7 @@ This step was quoted from DeNovo(doi: 10.1093/bioinformatics/btv737). In this st
 Needleman-Wunsch algorithm with the BLOSUM30 matrix to capture distant similarities.  
 
 #### /MyNegativeSampling/02_genIntTable/
-This file is used to generate the interaction table based on the Hash table
+This step is used to generate the interaction table based on the Hash table.
+
+#### /MyNegativeSampling/03_genNegSamp/
+This step is used to generate negative samples.
