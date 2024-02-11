@@ -12,9 +12,7 @@ def myReadCsv(filename):
 # 打开fasta文件，读取所有蛋白质序列并去除注释信息
 Virus_Species = ["DENV","HCV","HHV4","HHV8","HIV1","InfluenzaA"]
 Virus_family = ["Coronaviridae","Filoviridae","Flaviviridae","Herpesviridae","Orthomyxoviridae","Paramyxoviridae","Parvoviridae","Retroviridae"]
-#Virus_Species = ["DENV"]
-#Virus_family = ["Coronaviridae"]
-'''
+
 #species train
 for virus in Virus_Species:
     sequences = []
@@ -130,7 +128,7 @@ for virus in Virus_family:
                 label_file.write(str(i[0]))
                 label_file.write("\n")
 
-'''
+
 # All train
 os.makedirs("Data/train/virus/all/", exist_ok=True)
 sequences = []
